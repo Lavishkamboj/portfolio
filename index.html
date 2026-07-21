@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavish- Portfolio</title>
+    <title>Lavish - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
         <nav>
             <div class="logo">LK</div>
@@ -21,10 +20,9 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Hey, I'm Lavish! 👋</h1>
+            <h1>Hey, I'm Lavish 👋</h1>
             <p class="hero-subtitle">Engineer by Logic, Artist by Imagination.</p>
             <p class="hero-description">I love building websites and apps that people actually enjoy using. Currently learning new things like AI/ML and having fun with code!</p>
             <div class="hero-buttons">
@@ -34,7 +32,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title fade-in">About Me</h2>
@@ -45,7 +42,7 @@
                 <div class="about-text">
                     <h3>Nice to meet you!</h3>
                     <p>I'm a self-taught developer who started coding in college. I enjoy building websites and apps that solve people problems.</p>
-                    <p>Outside of coding, I enjoy doing basic photo and video editing,watching tech content, and sharing project ideas with friends and gaming sometime.</p>
+                    <p>Outside of coding, I enjoy doing basic photo and video editing, watching tech content, and sharing project ideas with friends and gaming sometime.</p>
                     <div class="fun-facts">
                         <h4>🎯Facts</h4>
                         <p>• Sometime css feels more complicated then others<br>
@@ -58,7 +55,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="projects-intro fade-in">
@@ -67,20 +63,80 @@
             </div>
             
             <div class="projects-grid">
+                
                 <div class="project-card fade-in">
-                    <div class="project-image">Task Manager</div>
+                    <div class="project-image">RAG App</div>
                     <div class="project-content">
-                        <h3 class="project-title">Task Manager App</h3>
-                        <p class="project-desc">A fun app that helps you organize your task and helps you stay focused and productive at your work.</p>
+                        <h3 class="project-title">RAG AI Application</h3>
+                        <p class="project-desc">An AI application that retrieves relevant information from a knowledge base before generating responses. Implements tool calling for executing external tasks, using the Llama-3.3-70b model, and stores embeddings in a Qdrant vector database.</p>
                         <div class="project-links">
-                            <a href="https://todo-front-bice-six.vercel.app/" target="_blank" class="project-link">Live Demo</a>
-                            <a href="https://github.com/Lavishkamboj/to_do_1_orgcpy" target="_blank" class="project-link">Code</a>
+                            <a href="https://rag-frontend-pied.vercel.app/" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/Lavishkamboj/RAG_Backend" target="_blank" class="project-link">Code</a>
                         </div>
                         <div class="tech-used">
                             <h5>Built with:</h5>
                             <div class="tech-tags">
-                                <span class="tech-tag">MERN</span>
-                            
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">LangChain</span>
+                                <span class="tech-tag">Qdrant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">Chat App</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Chat Application</h3>
+                        <p class="project-desc">A full-stack messaging application featuring persistent, full-duplex communication. Includes secure JWT-based authentication with cookies, password hashing with bcrypt, and reliable backend deployment on Railway.</p>
+                        <div class="project-links">
+                            <a href="https://chat-app-frontend-ten-neon.vercel.app/" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/Lavishkamboj/ChatAppBackend" target="_blank" class="project-link">Code</a>
+                        </div>
+                        <div class="tech-used">
+                            <h5>Built with:</h5>
+                            <div class="tech-tags">
+                                <span class="tech-tag">MERN Stack</span>
+                                <span class="tech-tag">Socket.io</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">IoT System</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hand Gesture Relay Control</h3>
+                        <p class="project-desc">An integrated hardware-software system allowing wireless control of home appliances. Uses MediaPipe for real-time hand tracking and an ESP32 microcontroller to switch relays via gestures or a web interface.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Lavishkamboj/Home_automation" target="_blank" class="project-link">Code</a>
+                        </div>
+                        <div class="tech-used">
+                            <h5>Built with:</h5>
+                            <div class="tech-tags">
+                                <span class="tech-tag">ESP32</span>
+                                <span class="tech-tag">MediaPipe</span>
+                                <span class="tech-tag">Hardware Relays</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">RISC-V CPU</div>
+                    <div class="project-content">
+                        <h3 class="project-title">RISC-V Single Cycle CPU</h3>
+                        <p class="project-desc">A fully functional 32-bit RISC-V CPU designed from scratch. Handles the complete execution cycle—instruction fetch, decode, execute, memory access, and write-back—with a custom control unit and ALU.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Lavishkamboj/Risc_V_single_cycle" target="_blank" class="project-link">Code</a>
+                        </div>
+                        <div class="tech-used">
+                            <h5>Built with:</h5>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Verilog</span>
+                                <span class="tech-tag">RTL Design</span>
                             </div>
                         </div>
                     </div>
@@ -90,7 +146,7 @@
                     <div class="project-image">Game</div>
                     <div class="project-content">
                         <h3 class="project-title">Bouncing Ball Game</h3>
-                        <p class="project-desc">A simple bouncing ball game, i made it so that i can have basic understanding of how collisons and gravity works in game.</p>
+                        <p class="project-desc">A simple bouncing ball game, I made it so that I can have basic understanding of how collisions and gravity work in games.</p>
                         <div class="project-links">
                             <a href="https://lavishkamboj.github.io/EVO2/canvas_ball_game/canvas_ball_game.html" target="_blank" class="project-link">Live Demo</a>
                             <a href="https://github.com/Lavishkamboj/EVO2/tree/main/canvas_ball_game" target="_blank" class="project-link">Code</a>
@@ -99,66 +155,7 @@
                             <h5>Built with:</h5>
                             <div class="tech-tags">
                                 <span class="tech-tag">JavaScript</span>
-                        
                                 <span class="tech-tag">HTML/CSS</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card fade-in">
-                    <div class="project-image">Car Rental</div>
-                    <div class="project-content">
-                        <h3 class="project-title">Car Rental Website</h3>
-                        <p class="project-desc">A simple wordpress website made for a local client, with form integration.</p>
-                        <div class="project-links">
-                            <a href="http://maskycars.wuaze.com/" target="_blank" class="project-link">Live Demo</a>
-                            
-                        </div>
-                        <div class="tech-used">
-                            <h5>Built with:</h5>
-                            <div class="tech-tags">
-                                <span class="tech-tag">Wordpress</span>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card fade-in">
-                    <div class="project-image">Portfolio Website</div>
-                    <div class="project-content">
-                        <h3 class="project-title">Portfolio Website</h3>
-                        <p class="project-desc">Its not any project/app its my 2nd Portfolio website made using vibe coding because from scratch it would have taken lot of weeks!</p>
-                        <div class="project-links">
-                            <a href="https://lavishkamboj.github.io/Vibe-Portfolio/" target="_blank" class="project-link">Live Demo</a>
-                            <a href="https://github.com/Lavishkamboj/Vibe-Portfolio" class="project-link">Code</a>
-                        </div>
-                        <div class="tech-used">
-                            <h5>Built with:</h5>
-                            <div class="tech-tags">
-                                <span class="tech-tag">HTML/CSS</span>
-                                <span class="tech-tag">JavaScript</span>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                  <div class="project-card fade-in">
-                    <div class="project-image">Blogs</div>
-                    <div class="project-content">
-                        <h3 class="project-title">My Blogs</h3>
-                        <p class="project-desc">Its not a project but a simple wordpress website where i used to upload my blogs to share my thoughts with others.  </p>
-                        <div class="project-links">
-                            <a href="https://lavishblogs.page.gd/" target="_blank" class="project-link">Visit</a>
-                            
-                        </div>
-                        <div class="tech-used">
-                            <h5>Built with:</h5>
-                            <div class="tech-tags">
-                                <span class="tech-tag">Wordpress</span>
-                                
                             </div>
                         </div>
                     </div>
@@ -166,11 +163,8 @@
 
             </div>
         </div>
-
-        
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title fade-in">What I Work With</h2>
@@ -188,18 +182,17 @@
                 <div class="skill-card fade-in">
                     <div class="skill-icon">||</div>
                     <h3 class="skill-name">Database</h3>
-                    <p class="skill-level">MongoDb</p>
+                    <p class="skill-level">MongoDb, Qdrant</p>
                 </div>
                 <div class="skill-card fade-in">
                     <div class="skill-icon">🛠️</div>
-                    <h3 class="skill-name">Tools</h3>
-                    <p class="skill-level">Git, VS Code, Chrome DevTools</p>
+                    <h3 class="skill-name">Tools & Hardware</h3>
+                    <p class="skill-level">Git, VS Code, ESP32, Verilog</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-content">
@@ -213,7 +206,7 @@
                         <div class="contact-icon">📧</div>
                         <h4>Email Me</h4>
                         <p>Best way to reach me</p>
-                        <a href="lavishkamboj16@gmail.com" target="_blank">lavishkamboj16@gmail.com</a>
+                        <a href="mailto:lavishkamboj16@gmail.com" target="_blank">lavishkamboj16@gmail.com</a>
                     </div>
                     <div class="contact-card fade-in">
                         <div class="contact-icon">💼</div>
@@ -232,12 +225,10 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>© 2025 Lavish. Built with lots of love.</p>
+        <p>© 2026 Himanshu Saini. Built with lots of love.</p>
     </footer>
 
-   <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
